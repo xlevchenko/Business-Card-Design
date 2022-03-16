@@ -12,6 +12,7 @@
 		608D1E012715CB8F0094B6AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608D1E002715CB8F0094B6AF /* Assets.xcassets */; };
 		608D1E042715CB8F0094B6AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608D1E032715CB8F0094B6AF /* Preview Assets.xcassets */; };
 		608D1E1327161B430094B6AF /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608D1E1227161B430094B6AF /* InfoView.swift */; };
+		60AAD75127E2067D00E86206 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 60AAD75027E2067D00E86206 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		608D1E032715CB8F0094B6AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		608D1E0D2715E5280094B6AF /* Olexsii-Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Olexsii-Card-Info.plist"; sourceTree = SOURCE_ROOT; };
 		608D1E1227161B430094B6AF /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		60AAD75027E2067D00E86206 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		608D1DF02715CB8D0094B6AF = {
 			isa = PBXGroup;
 			children = (
+				60AAD75027E2067D00E86206 /* README.md */,
 				608D1DFB2715CB8D0094B6AF /* Olexsii Card */,
 				608D1DFA2715CB8D0094B6AF /* Products */,
 			);
@@ -57,11 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				608D1E0D2715E5280094B6AF /* Olexsii-Card-Info.plist */,
-				608D1E0A2715E2040094B6AF /* Font */,
 				608D1DFC2715CB8D0094B6AF /* Olexsii_CardApp.swift */,
-				608D1DFE2715CB8D0094B6AF /* ContentView.swift */,
-				608D1E1227161B430094B6AF /* InfoView.swift */,
+				60C58AAA272011F900B85B83 /* Controller */,
+				60C58AA82720117E00B85B83 /* Model */,
 				608D1E002715CB8F0094B6AF /* Assets.xcassets */,
+				608D1E0A2715E2040094B6AF /* Font */,
 				608D1E022715CB8F0094B6AF /* Preview Content */,
 			);
 			path = "Olexsii Card";
@@ -82,6 +85,22 @@
 				6087B09E271F3F7100FCA690 /* SignikaNegative-Regular.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		60C58AA82720117E00B85B83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				608D1E1227161B430094B6AF /* InfoView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60C58AAA272011F900B85B83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				608D1DFE2715CB8D0094B6AF /* ContentView.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60AAD75127E2067D00E86206 /* README.md in Resources */,
 				608D1E042715CB8F0094B6AF /* Preview Assets.xcassets in Resources */,
 				608D1E012715CB8F0094B6AF /* Assets.xcassets in Resources */,
 			);
